@@ -55,8 +55,10 @@ let mainWindow;
 function createWindow () {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-        width: 800,
+        width: 940,
         height: 600,
+		minWidth: 940,
+		minHeight: 500,
         frame: false,
         backgroundColor: '#FFF',
         webPreferences: {
