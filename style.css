@@ -179,7 +179,7 @@ footer{
 
 html {
     /* scrollbar firefox */
-    scrollbar-color: rgb(1, 1, 1) rgb(110, 110, 110);
+    scrollbar-color: rgb(12, 45, 90) rgb(30, 110, 110);
 }
 
 /* Note: The -webkit-scrollbar is not supported by Firefox or IE and Edge. */
@@ -197,17 +197,17 @@ html {
 
 ::-webkit-scrollbar-thumb {
     /* Handle */
-    background: rgb(110, 110, 110);
+    background: rgb(50, 110, 20);
     border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     /* Handle on hover */
-    background: rgb(110, 110, 110);
+    background: rgb(3, 54, 90);
 }
 
 ::-webkit-scrollbar-track-piece {
     /* not handle on */
-    background: rgb(1, 1, 1);
+    background: rgb(175, 215, 232);
 }
 

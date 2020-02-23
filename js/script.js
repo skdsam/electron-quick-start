@@ -35,3 +35,28 @@ document.addEventListener("DOMContentLoaded", () => {
   toggleClassToApp(".bonus-why-so-serious", "why-so-serious", false);
   toggleClassToApp(".bonus-russia", "bonus-russia", false);
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+	
+	
+	
+	 const Store = require('electron-store');
+	 const store = new Store();
+	 const console = require('console');
+	 // Button name
+	 const bbapp = document.querySelector(".app-add");
+	 
+	
+	 
+	 bbapp.addEventListener("click", () => {
+        console.log('Button pressed');
+		store.set('themecolour', 'dark-mode');
+        console.log(store.get('unicornz'));
+        alert(store.get('unicorn'));		
+  });
+	 
+
+})

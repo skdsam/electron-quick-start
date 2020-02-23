@@ -49,9 +49,15 @@ function notifyMe () {
   const notification = new window.Notification('Hello World', {
     body: 'Sam is sending this :-)'
   })
-
+  
   notification.onclick = () => console.log('Clicked')
   notification.onclose = () => console.log('Closed')
+  
+  
+  
 }
+document.querySelector('buttons').onclick = notifyMe;
 
-document.querySelector('button').onclick = notifyMe
+
+
+
